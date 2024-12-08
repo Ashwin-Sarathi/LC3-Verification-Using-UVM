@@ -1,0 +1,251 @@
+make[1]: Entering directory '/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim'
+vsim -c    -sv_seed random +UVM_TESTNAME=test_top +UVM_VERBOSITY=UVM_LOW -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase  -coverage  -uvmcontrol=none  -printsimstats     -do " coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;"  optimized_batch_top_tb  
+Reading pref.tcl
+
+# 2024.2
+
+# vsim -c -sv_seed random "+UVM_TESTNAME=test_top" "+UVM_VERBOSITY=UVM_LOW" -permit_unmatched_virtual_intf "+notimingchecks" -suppress 8887 -solvefaildebug -solvefailtestcase -coverage -uvmcontrol=none -printsimstats -do " coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;" optimized_batch_top_tb 
+# Start time: 18:19:41 on Dec 03,2024
+# //  Questa Sim
+# //  Version 2024.2 linux May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.dmem_driver_bfm(fast)
+# Loading work.dmem_monitor_bfm(fast)
+# Loading work.uvmf_base_pkg_hdl(fast)
+# Loading work.dmem_pkg_hdl(fast)
+# Loading work.fetch_in_driver_bfm(fast)
+# Loading work.fetch_in_monitor_bfm(fast)
+# Loading work.fetch_out_driver_bfm(fast)
+# Loading work.fetch_out_monitor_bfm(fast)
+# Loading work.decode_in_driver_bfm(fast)
+# Loading work.decode_in_monitor_bfm(fast)
+# Loading work.decode_out_driver_bfm(fast)
+# Loading work.decode_out_monitor_bfm(fast)
+# Loading work.writeback_in_driver_bfm(fast)
+# Loading work.writeback_in_monitor_bfm(fast)
+# Loading work.writeback_out_driver_bfm(fast)
+# Loading work.writeback_out_monitor_bfm(fast)
+# Loading work.memaccess_in_driver_bfm(fast)
+# Loading work.memaccess_in_monitor_bfm(fast)
+# Loading work.memaccess_out_driver_bfm(fast)
+# Loading work.memaccess_out_monitor_bfm(fast)
+# Loading work.control_in_driver_bfm(fast)
+# Loading work.control_in_monitor_bfm(fast)
+# Loading work.control_out_driver_bfm(fast)
+# Loading work.control_out_monitor_bfm(fast)
+# Loading work.execute_in_driver_bfm(fast)
+# Loading work.execute_in_monitor_bfm(fast)
+# Loading work.execute_out_driver_bfm(fast)
+# Loading work.execute_out_monitor_bfm(fast)
+# Loading work.imem_driver_bfm(fast)
+# Loading work.imem_monitor_bfm(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.uvmf_base_pkg(fast)
+# Loading work.dmem_pkg(fast)
+# Loading work.imem_pkg_hdl(fast)
+# Loading work.imem_pkg(fast)
+# Loading work.execute_out_pkg_hdl(fast)
+# Loading work.execute_out_pkg(fast)
+# Loading work.execute_in_pkg_hdl(fast)
+# Loading work.execute_in_pkg(fast)
+# Loading work.lc3_prediction_pkg(fast)
+# Loading work.execute_env_pkg(fast)
+# Loading work.control_out_pkg_hdl(fast)
+# Loading work.control_out_pkg(fast)
+# Loading work.control_in_pkg_hdl(fast)
+# Loading work.control_in_pkg(fast)
+# Loading work.control_env_pkg(fast)
+# Loading work.memaccess_out_pkg_hdl(fast)
+# Loading work.memaccess_out_pkg(fast)
+# Loading work.memaccess_in_pkg_hdl(fast)
+# Loading work.memaccess_in_pkg(fast)
+# Loading work.memaccess_env_pkg(fast)
+# Loading work.writeback_out_pkg_hdl(fast)
+# Loading work.writeback_out_pkg(fast)
+# Loading work.writeback_in_pkg_hdl(fast)
+# Loading work.writeback_in_pkg(fast)
+# Loading work.writeback_env_pkg(fast)
+# Loading work.decode_out_pkg_hdl(fast)
+# Loading work.decode_out_pkg(fast)
+# Loading work.decode_in_pkg_hdl(fast)
+# Loading work.decode_in_pkg(fast)
+# Loading work.decode_env_pkg(fast)
+# Loading work.fetch_out_pkg_hdl(fast)
+# Loading work.fetch_out_pkg(fast)
+# Loading work.fetch_in_pkg_hdl(fast)
+# Loading work.fetch_in_pkg(fast)
+# Loading work.fetch_env_pkg(fast)
+# Loading work.lc3_env_pkg(fast)
+# Loading work.lc3_parameters_pkg(fast)
+# Loading work.lc3_sequences_pkg(fast)
+# Loading work.lc3_tests_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.hvl_top(fast)
+# Loading work.hdl_top(fast)
+# Loading work.fetch_in_if_sv_unit(fast)
+# Loading work.fetch_in_if(fast__1)
+# Loading work.fetch_out_if_sv_unit(fast)
+# Loading work.fetch_out_if(fast__1)
+# Loading work.decode_in_if_sv_unit(fast)
+# Loading work.decode_in_if(fast__1)
+# Loading work.decode_out_if_sv_unit(fast)
+# Loading work.decode_out_if(fast__1)
+# Loading work.writeback_in_if_sv_unit(fast)
+# Loading work.writeback_in_if(fast__1)
+# Loading work.writeback_out_if_sv_unit(fast)
+# Loading work.writeback_out_if(fast__1)
+# Loading work.memaccess_in_if_sv_unit(fast)
+# Loading work.memaccess_in_if(fast__1)
+# Loading work.memaccess_out_if_sv_unit(fast)
+# Loading work.memaccess_out_if(fast__1)
+# Loading work.control_in_if_sv_unit(fast)
+# Loading work.control_in_if(fast__1)
+# Loading work.control_out_if_sv_unit(fast)
+# Loading work.control_out_if(fast__1)
+# Loading work.execute_in_if_sv_unit(fast)
+# Loading work.execute_in_if(fast__1)
+# Loading work.execute_out_if_sv_unit(fast)
+# Loading work.execute_out_if(fast__1)
+# Loading work.imem_if_sv_unit(fast)
+# Loading work.imem_if(fast__1)
+# Loading work.dmem_if_sv_unit(fast)
+# Loading work.dmem_if(fast__1)
+# Loading work.fetch_in_monitor_bfm_sv_unit(fast)
+# Loading work.fetch_in_monitor_bfm(fast__1)
+# Loading work.fetch_out_monitor_bfm_sv_unit(fast)
+# Loading work.fetch_out_monitor_bfm(fast__1)
+# Loading work.decode_in_monitor_bfm_sv_unit(fast)
+# Loading work.decode_in_monitor_bfm(fast__1)
+# Loading work.decode_out_monitor_bfm_sv_unit(fast)
+# Loading work.decode_out_monitor_bfm(fast__1)
+# Loading work.writeback_in_monitor_bfm_sv_unit(fast)
+# Loading work.writeback_in_monitor_bfm(fast__1)
+# Loading work.writeback_out_monitor_bfm_sv_unit(fast)
+# Loading work.writeback_out_monitor_bfm(fast__1)
+# Loading work.memaccess_in_monitor_bfm_sv_unit(fast)
+# Loading work.memaccess_in_monitor_bfm(fast__1)
+# Loading work.memaccess_out_monitor_bfm_sv_unit(fast)
+# Loading work.memaccess_out_monitor_bfm(fast__1)
+# Loading work.control_in_monitor_bfm_sv_unit(fast)
+# Loading work.control_in_monitor_bfm(fast__1)
+# Loading work.control_out_monitor_bfm_sv_unit(fast)
+# Loading work.control_out_monitor_bfm(fast__1)
+# Loading work.execute_in_monitor_bfm_sv_unit(fast)
+# Loading work.execute_in_monitor_bfm(fast__1)
+# Loading work.execute_out_monitor_bfm_sv_unit(fast)
+# Loading work.execute_out_monitor_bfm(fast__1)
+# Loading work.imem_monitor_bfm_sv_unit(fast)
+# Loading work.imem_monitor_bfm(fast__1)
+# Loading work.dmem_monitor_bfm_sv_unit(fast)
+# Loading work.dmem_monitor_bfm(fast__1)
+# Loading work.imem_driver_bfm_sv_unit(fast)
+# Loading work.imem_driver_bfm(fast__1)
+# Loading work.dmem_driver_bfm_sv_unit(fast)
+# Loading work.dmem_driver_bfm(fast__1)
+# Loading work.LC3(fast)
+# Loading /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/uvm-1.1d/linux/uvm_dpi.so
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# Sv_Seed = 1368029758
+#  coverage save -onexit test_top.ucdb
+#  set IterationLimit 140000
+# 140000
+#  set NoQuitOnFinish 1
+# 1
+#    run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# ----------------------------------------------------------------
+# //  UVM Framework 
+# //  Version 2023.4
+# //  (C) 2013-2023 Siemens Corporation
+# //  Digital Industries Software
+# //  Siemens EDA
+# //  All Rights Reserved.
+# ----------------------------------------------------------------
+# 
+# 
+# UVM_INFO @ 0.000ns: reporter [RNTST] Running test test_top...
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.controlEnv.control_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.decodeEnv.decode_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.executeEnv.execute_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.fetchEnv.fetch_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.memaccessEnv.memaccess_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.writebackEnv.writeback_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# start drain time               17070
+# end draining
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 17170.00 ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.controlEnv.control_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1713 MATCHES=1713 MISMATCHES=0
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.decodeEnv.decode_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=618 MATCHES=618 MISMATCHES=0
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.executeEnv.execute_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=617 MATCHES=617 MISMATCHES=0
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.fetchEnv.fetch_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1716 MATCHES=1716 MISMATCHES=0
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.memaccessEnv.memaccess_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1713 MATCHES=1713 MISMATCHES=0
+# UVM_INFO @ 17170.00 ns: uvm_test_top.environment.writebackEnv.writeback_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1716 MATCHES=1715 MISMATCHES=0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    6
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [SCBD]    12
+# [TEST_DONE]     1
+# ** Note: $finish    : /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 17170 ns  Iteration: 53  Instance: /hvl_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Stopped at /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+#  quit -f
+# Saving coverage database on exit...
+# Memory Statistics                         
+#     mem: size after elab (VSZ)                 170.82 Mb
+#     mem: size during sim (VSZ)                 185.49 Mb
+# Elaboration Time                          
+#    elab: wall time                               2.63 s
+#    elab: cpu time                                1.50 s
+# Simulation Time                           
+#     sim: wall time                               0.69 s
+#     sim: cpu time                                0.32 s
+# Coverage Save Time                        
+#    save: wall time                               1.17 s
+#    save: cpu time                                0.19 s
+# Total Time                                
+#   total: wall time                               4.49 s
+#   total: cpu time                                2.01 s
+# HDL Simulation time                              17170 ns
+# 
+# End time: 18:19:46 on Dec 03,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+make[1]: Leaving directory '/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim'

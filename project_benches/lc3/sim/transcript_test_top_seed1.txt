@@ -1,0 +1,1844 @@
+make[1]: Entering directory '/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim'
+test -e work || vlib work 
+echo "Compile your vhdl DUT here"
+Compile your vhdl DUT here
+vcom -covermultiuserenv   /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/vhdl/vhdl_dut.vhd
+QuestaSim vcom 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:08 on Dec 03,2024
+vcom -covermultiuserenv /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/vhdl/vhdl_dut.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity vhdl_dut
+-- Compiling architecture rtl of vhdl_dut
+End time: 18:17:09 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+echo "Compile your verilog DUT here"
+Compile your verilog DUT here
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/data_defs.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Fetch.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Decode_Pipelined.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Execute.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Controller_Pipeline.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/WriteBack.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Mem_Access.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/TopLevelLC3.v 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:09 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/data_defs.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Fetch.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Decode_Pipelined.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Execute.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Controller_Pipeline.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/WriteBack.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/Mem_Access.v /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../rtl/verilog/TopLevelLC3.v 
+-- Compiling module Fetch
+-- Compiling module Decode
+-- Compiling module Execute
+-- Compiling module extension
+-- Compiling module ALU
+-- Compiling module Controller_Pipeline
+-- Compiling module Writeback
+-- Compiling module RegFile
+-- Compiling module MemAccess
+-- Compiling module LC3
+
+Top level modules:
+	LC3
+End time: 18:17:11 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE   +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg/uvmf_base_pkg_filelist_hdl.f
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:11 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg/uvmf_base_pkg_filelist_hdl.f 
+-- Compiling package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:12 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE   +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg/uvmf_base_pkg_filelist_hvl.f
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:12 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/UVMF_2023.4/uvmf_base_pkg/uvmf_base_pkg_filelist_hvl.f 
+-- Compiling package uvmf_base_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:14 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:14 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_hdl.f 
+-- Compiling package fetch_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:15 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:15 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_hvl.f 
+-- Compiling package fetch_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package fetch_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:17 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:18 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_in_pkg/fetch_in_filelist_xrtl.f 
+-- Compiling package fetch_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package fetch_in_pkg_hdl
+-- Compiling interface fetch_in_if
+-- Compiling package fetch_in_monitor_bfm_sv_unit
+-- Compiling interface fetch_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package fetch_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package fetch_in_driver_bfm_sv_unit
+-- Compiling interface fetch_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:20 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:20 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_hdl.f 
+-- Compiling package fetch_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:21 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:21 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_hvl.f 
+-- Compiling package fetch_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package fetch_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:23 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:23 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/fetch_out_pkg/fetch_out_filelist_xrtl.f 
+-- Compiling package fetch_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package fetch_out_pkg_hdl
+-- Compiling interface fetch_out_if
+-- Compiling package fetch_out_monitor_bfm_sv_unit
+-- Compiling interface fetch_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package fetch_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package fetch_out_driver_bfm_sv_unit
+-- Compiling interface fetch_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:25 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:25 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_hdl.f 
+-- Compiling package decode_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:26 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:26 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_hvl.f 
+-- Compiling package decode_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package decode_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:28 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:28 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_in_pkg/decode_in_filelist_xrtl.f 
+-- Compiling package decode_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package decode_in_pkg_hdl
+-- Compiling interface decode_in_if
+-- Compiling package decode_in_monitor_bfm_sv_unit
+-- Compiling interface decode_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package decode_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package decode_in_driver_bfm_sv_unit
+-- Compiling interface decode_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:30 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:30 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_hdl.f 
+-- Compiling package decode_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:31 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:31 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_hvl.f 
+-- Compiling package decode_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package decode_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:33 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:33 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/decode_out_pkg/decode_out_filelist_xrtl.f 
+-- Compiling package decode_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package decode_out_pkg_hdl
+-- Compiling interface decode_out_if
+-- Compiling package decode_out_monitor_bfm_sv_unit
+-- Compiling interface decode_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package decode_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package decode_out_driver_bfm_sv_unit
+-- Compiling interface decode_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:35 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:35 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_hdl.f 
+-- Compiling package writeback_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:36 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:36 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_hvl.f 
+-- Compiling package writeback_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package writeback_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:38 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:38 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_in_pkg/writeback_in_filelist_xrtl.f 
+-- Compiling package writeback_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package writeback_in_pkg_hdl
+-- Compiling interface writeback_in_if
+-- Compiling package writeback_in_monitor_bfm_sv_unit
+-- Compiling interface writeback_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package writeback_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package writeback_in_driver_bfm_sv_unit
+-- Compiling interface writeback_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:41 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:41 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_hdl.f 
+-- Compiling package writeback_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:42 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:42 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_hvl.f 
+-- Compiling package writeback_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package writeback_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:44 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:44 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/writeback_out_pkg/writeback_out_filelist_xrtl.f 
+-- Compiling package writeback_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package writeback_out_pkg_hdl
+-- Compiling interface writeback_out_if
+-- Compiling package writeback_out_monitor_bfm_sv_unit
+-- Compiling interface writeback_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package writeback_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package writeback_out_driver_bfm_sv_unit
+-- Compiling interface writeback_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:46 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:47 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_hdl.f 
+-- Compiling package memaccess_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:48 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:48 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_hvl.f 
+-- Compiling package memaccess_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package memaccess_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:50 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:50 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_in_pkg/memaccess_in_filelist_xrtl.f 
+-- Compiling package memaccess_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package memaccess_in_pkg_hdl
+-- Compiling interface memaccess_in_if
+-- Compiling package memaccess_in_monitor_bfm_sv_unit
+-- Compiling interface memaccess_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package memaccess_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package memaccess_in_driver_bfm_sv_unit
+-- Compiling interface memaccess_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:52 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:52 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_hdl.f 
+-- Compiling package memaccess_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:53 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:53 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_hvl.f 
+-- Compiling package memaccess_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package memaccess_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:55 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:55 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/memaccess_out_pkg/memaccess_out_filelist_xrtl.f 
+-- Compiling package memaccess_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package memaccess_out_pkg_hdl
+-- Compiling interface memaccess_out_if
+-- Compiling package memaccess_out_monitor_bfm_sv_unit
+-- Compiling interface memaccess_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package memaccess_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package memaccess_out_driver_bfm_sv_unit
+-- Compiling interface memaccess_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:17:58 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:58 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_hdl.f 
+-- Compiling package control_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:17:59 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:17:59 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_hvl.f 
+-- Compiling package control_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package control_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:01 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:01 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_in_pkg/control_in_filelist_xrtl.f 
+-- Compiling package control_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package control_in_pkg_hdl
+-- Compiling interface control_in_if
+-- Compiling package control_in_monitor_bfm_sv_unit
+-- Compiling interface control_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package control_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package control_in_driver_bfm_sv_unit
+-- Compiling interface control_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:03 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:03 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_hdl.f 
+-- Compiling package control_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:04 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:04 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_hvl.f 
+-- Compiling package control_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package control_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:06 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:06 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/control_out_pkg/control_out_filelist_xrtl.f 
+-- Compiling package control_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package control_out_pkg_hdl
+-- Compiling interface control_out_if
+-- Compiling package control_out_monitor_bfm_sv_unit
+-- Compiling interface control_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package control_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package control_out_driver_bfm_sv_unit
+-- Compiling interface control_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:09 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:09 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_hdl.f 
+-- Compiling package execute_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:10 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:10 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_hvl.f 
+-- Compiling package execute_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package execute_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:12 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:12 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_in_pkg/execute_in_filelist_xrtl.f 
+-- Compiling package execute_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package execute_in_pkg_hdl
+-- Compiling interface execute_in_if
+-- Compiling package execute_in_monitor_bfm_sv_unit
+-- Compiling interface execute_in_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package execute_in_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package execute_in_driver_bfm_sv_unit
+-- Compiling interface execute_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:14 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:14 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_hdl.f 
+-- Compiling package execute_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:15 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:15 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_hvl.f 
+-- Compiling package execute_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package execute_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:17 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:17 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/execute_out_pkg/execute_out_filelist_xrtl.f 
+-- Compiling package execute_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package execute_out_pkg_hdl
+-- Compiling interface execute_out_if
+-- Compiling package execute_out_monitor_bfm_sv_unit
+-- Compiling interface execute_out_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package execute_out_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package execute_out_driver_bfm_sv_unit
+-- Compiling interface execute_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:20 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:20 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_hdl.f 
+-- Compiling package imem_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:21 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:21 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_hvl.f 
+-- Compiling package imem_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package imem_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:23 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:23 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/imem_pkg/imem_filelist_xrtl.f 
+-- Compiling package imem_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package imem_pkg_hdl
+-- Compiling interface imem_if
+-- Compiling package imem_monitor_bfm_sv_unit
+-- Compiling interface imem_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package imem_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package imem_driver_bfm_sv_unit
+-- Compiling interface imem_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:25 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_hdl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:25 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_hdl.f 
+-- Compiling package dmem_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:26 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_hvl.f 
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:26 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_hvl.f 
+-- Compiling package dmem_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package dmem_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:28 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_xrtl.f  
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:28 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/interface_packages/dmem_pkg/dmem_filelist_xrtl.f 
+-- Compiling package dmem_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package dmem_pkg_hdl
+-- Compiling interface dmem_if
+-- Compiling package dmem_monitor_bfm_sv_unit
+-- Compiling interface dmem_monitor_bfm
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package dmem_pkg
+-- Importing package uvmf_base_pkg
+-- Compiling package dmem_driver_bfm_sv_unit
+-- Compiling interface dmem_driver_bfm
+
+Top level modules:
+	--none--
+End time: 18:18:31 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv +incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg \
+../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:31 on Dec 03,2024
+vlog -sv "+incdir+../../../verification_ip/environment_packages/lc3_prediction_pkg" ../../../verification_ip/environment_packages/lc3_prediction_pkg/lc3_prediction_pkg.sv 
+-- Compiling package lc3_prediction_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+End time: 18:18:32 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/fetch_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/fetch_env_pkg/fetch_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:32 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/fetch_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/fetch_env_pkg/fetch_env_pkg.sv 
+-- Compiling package fetch_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:34 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/decode_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:34 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/decode_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/decode_env_pkg/decode_env_pkg.sv 
+-- Compiling package decode_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package lc3_prediction_pkg
+
+Top level modules:
+	--none--
+End time: 18:18:36 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/writeback_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/writeback_env_pkg/writeback_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:36 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/writeback_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/writeback_env_pkg/writeback_env_pkg.sv 
+-- Compiling package writeback_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package lc3_prediction_pkg
+
+Top level modules:
+	--none--
+End time: 18:18:38 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/memaccess_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/memaccess_env_pkg/memaccess_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:38 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/memaccess_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/memaccess_env_pkg/memaccess_env_pkg.sv 
+-- Compiling package memaccess_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_prediction_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:40 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/control_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/control_env_pkg/control_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:40 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/control_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/control_env_pkg/control_env_pkg.sv 
+-- Compiling package control_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package lc3_prediction_pkg
+
+Top level modules:
+	--none--
+End time: 18:18:42 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/execute_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/execute_env_pkg/execute_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:42 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/execute_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/execute_env_pkg/execute_env_pkg.sv 
+-- Compiling package execute_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_prediction_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:44 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/lc3_env_pkg /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/lc3_env_pkg/lc3_env_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:44 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/lc3_env_pkg" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../../../verification_ip/environment_packages/lc3_env_pkg/lc3_env_pkg.sv 
+-- Compiling package lc3_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_env_pkg
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_env_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_env_pkg
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_env_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:47 on Dec 03,2024, Elapsed time: 0:00:03
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/parameters /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/parameters/lc3_parameters_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:47 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/parameters" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/parameters/lc3_parameters_pkg.sv 
+-- Compiling package lc3_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 18:18:48 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/sequences /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/sequences/lc3_sequences_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:48 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/sequences" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/sequences/lc3_sequences_pkg.sv 
+-- Compiling package lc3_sequences_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+-- Importing package lc3_parameters_pkg
+-- Importing package lc3_env_pkg
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package decode_env_pkg
+-- Importing package writeback_env_pkg
+-- Importing package memaccess_env_pkg
+-- Importing package control_env_pkg
+-- Importing package execute_env_pkg
+
+Top level modules:
+	--none--
+End time: 18:18:50 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/tests /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/tests/lc3_tests_pkg.sv
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:50 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/tests" /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/tests/lc3_tests_pkg.sv 
+-- Compiling package lc3_tests_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_parameters_pkg
+-- Importing package lc3_env_pkg
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_env_pkg
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_env_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_env_pkg
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_env_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+-- Importing package lc3_sequences_pkg
+
+Top level modules:
+	--none--
+End time: 18:18:52 on Dec 03,2024, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/questa_mvc_src/sv +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench/top_filelist_hvl.f
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:52 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/questa_mvc_src/sv" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench/top_filelist_hvl.f 
+-- Compiling module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package lc3_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_parameters_pkg
+-- Importing package lc3_env_pkg
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_env_pkg
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_env_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_env_pkg
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_env_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+-- Importing package lc3_sequences_pkg
+
+Top level modules:
+	hvl_top
+End time: 18:18:53 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv   +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench/top_filelist_hdl.f
+QuestaSim vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:53 on Dec 03,2024
+vlog -sv -suppress 2223 -suppress 2286 -covermultiuserenv "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench" -F /mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim/../tb/testbench/top_filelist_hdl.f 
+-- Compiling module hdl_top
+-- Importing package lc3_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	hdl_top
+End time: 18:18:54 on Dec 03,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vopt       hvl_top hdl_top    -o optimized_batch_top_tb
+QuestaSim vopt 2024.2 Compiler 2024.05 May 20 2024
+Start time: 18:18:54 on Dec 03,2024
+vopt hvl_top hdl_top -o optimized_batch_top_tb 
+
+Top level modules:
+	hvl_top
+	hdl_top
+
+Analyzing design...
+-- Loading module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package lc3_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_parameters_pkg
+-- Importing package lc3_env_pkg
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_env_pkg
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_env_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_env_pkg
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_env_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+-- Importing package lc3_sequences_pkg
+-- Loading module hdl_top
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading interface fetch_in_if
+-- Loading interface fetch_out_if
+-- Loading interface decode_in_if
+-- Loading interface decode_out_if
+-- Loading interface writeback_in_if
+-- Loading interface writeback_out_if
+-- Loading interface memaccess_in_if
+-- Loading interface memaccess_out_if
+-- Loading interface control_in_if
+-- Loading interface control_out_if
+-- Loading interface execute_in_if
+-- Loading interface execute_out_if
+-- Loading interface imem_if
+-- Loading interface dmem_if
+-- Loading interface fetch_in_monitor_bfm
+-- Loading interface fetch_in_driver_bfm
+-- Loading interface fetch_out_monitor_bfm
+-- Loading interface fetch_out_driver_bfm
+-- Loading interface decode_in_monitor_bfm
+-- Loading interface decode_in_driver_bfm
+-- Loading interface decode_out_monitor_bfm
+-- Loading interface decode_out_driver_bfm
+-- Loading interface writeback_in_monitor_bfm
+-- Loading interface writeback_in_driver_bfm
+-- Loading interface writeback_out_monitor_bfm
+-- Loading interface writeback_out_driver_bfm
+-- Loading interface memaccess_in_monitor_bfm
+-- Loading interface memaccess_in_driver_bfm
+-- Loading interface memaccess_out_monitor_bfm
+-- Loading interface memaccess_out_driver_bfm
+-- Loading interface control_in_monitor_bfm
+-- Loading interface control_in_driver_bfm
+-- Loading interface control_out_monitor_bfm
+-- Loading interface control_out_driver_bfm
+-- Loading interface execute_in_monitor_bfm
+-- Loading interface execute_in_driver_bfm
+-- Loading interface execute_out_monitor_bfm
+-- Loading interface execute_out_driver_bfm
+-- Loading interface imem_monitor_bfm
+-- Loading interface imem_driver_bfm
+-- Loading interface dmem_monitor_bfm
+-- Loading interface dmem_driver_bfm
+-- Loading module LC3
+-- Loading module Fetch
+-- Loading module Decode
+-- Loading module Execute
+-- Loading module ALU
+-- Loading module extension
+-- Loading module MemAccess
+-- Loading module Writeback
+-- Loading module RegFile
+-- Loading module Controller_Pipeline
+Optimizing 169 design-units (inlining 9/42 module instances):
+-- Optimizing interface decode_in_driver_bfm(fast)
+-- Optimizing interface fetch_out_monitor_bfm(fast)
+-- Optimizing interface fetch_out_driver_bfm(fast)
+-- Optimizing interface fetch_in_monitor_bfm(fast)
+-- Optimizing interface fetch_in_driver_bfm(fast)
+-- Optimizing interface dmem_if(fast)
+-- Optimizing interface imem_if(fast)
+-- Optimizing interface execute_out_if(fast)
+-- Optimizing interface execute_in_if(fast)
+-- Optimizing interface control_out_if(fast)
+-- Optimizing interface control_in_if(fast)
+-- Optimizing interface memaccess_out_if(fast)
+-- Optimizing interface memaccess_in_if(fast)
+-- Optimizing interface writeback_out_if(fast)
+-- Optimizing interface writeback_in_if(fast)
+-- Optimizing interface decode_out_if(fast)
+-- Optimizing interface decode_in_if(fast)
+-- Optimizing interface fetch_out_if(fast)
+-- Optimizing interface fetch_in_if(fast)
+-- Optimizing package writeback_out_driver_bfm_sv_unit(fast)
+-- Optimizing package memaccess_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package memaccess_in_driver_bfm_sv_unit(fast)
+-- Optimizing package memaccess_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package memaccess_out_driver_bfm_sv_unit(fast)
+-- Optimizing package control_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package control_in_driver_bfm_sv_unit(fast)
+-- Optimizing package control_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package control_out_driver_bfm_sv_unit(fast)
+-- Optimizing package execute_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package execute_in_driver_bfm_sv_unit(fast)
+-- Optimizing package execute_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package execute_out_driver_bfm_sv_unit(fast)
+-- Optimizing package imem_monitor_bfm_sv_unit(fast)
+-- Optimizing package imem_driver_bfm_sv_unit(fast)
+-- Optimizing package dmem_monitor_bfm_sv_unit(fast)
+-- Optimizing package dmem_driver_bfm_sv_unit(fast)
+-- Optimizing interface dmem_monitor_bfm(fast)
+-- Optimizing interface dmem_driver_bfm(fast)
+-- Optimizing interface imem_monitor_bfm(fast)
+-- Optimizing interface imem_driver_bfm(fast)
+-- Optimizing interface execute_out_monitor_bfm(fast)
+-- Optimizing interface execute_out_driver_bfm(fast)
+-- Optimizing interface execute_in_monitor_bfm(fast)
+-- Optimizing interface execute_in_driver_bfm(fast)
+-- Optimizing interface control_out_monitor_bfm(fast)
+-- Optimizing interface control_out_driver_bfm(fast)
+-- Optimizing interface control_in_monitor_bfm(fast)
+-- Optimizing interface control_in_driver_bfm(fast)
+-- Optimizing interface memaccess_out_monitor_bfm(fast)
+-- Optimizing interface memaccess_out_driver_bfm(fast)
+-- Optimizing interface memaccess_in_monitor_bfm(fast)
+-- Optimizing interface memaccess_in_driver_bfm(fast)
+-- Optimizing interface writeback_out_monitor_bfm(fast)
+-- Optimizing interface writeback_out_driver_bfm(fast)
+-- Optimizing interface writeback_in_monitor_bfm(fast)
+-- Optimizing interface writeback_in_driver_bfm(fast)
+-- Optimizing interface decode_out_monitor_bfm(fast)
+-- Optimizing interface decode_out_driver_bfm(fast)
+-- Optimizing interface decode_in_monitor_bfm(fast)
+-- Optimizing package lc3_parameters_pkg(fast)
+-- Optimizing package fetch_in_pkg_hdl(fast)
+-- Optimizing package fetch_in_if_sv_unit(fast)
+-- Optimizing package fetch_out_pkg_hdl(fast)
+-- Optimizing package fetch_out_if_sv_unit(fast)
+-- Optimizing package decode_in_if_sv_unit(fast)
+-- Optimizing package decode_out_if_sv_unit(fast)
+-- Optimizing package writeback_in_pkg_hdl(fast)
+-- Optimizing package writeback_in_if_sv_unit(fast)
+-- Optimizing package writeback_out_pkg_hdl(fast)
+-- Optimizing package writeback_out_if_sv_unit(fast)
+-- Optimizing package memaccess_in_if_sv_unit(fast)
+-- Optimizing package memaccess_out_if_sv_unit(fast)
+-- Optimizing package control_in_pkg_hdl(fast)
+-- Optimizing package control_in_if_sv_unit(fast)
+-- Optimizing package control_out_pkg_hdl(fast)
+-- Optimizing package control_out_if_sv_unit(fast)
+-- Optimizing package execute_in_if_sv_unit(fast)
+-- Optimizing package execute_out_pkg_hdl(fast)
+-- Optimizing package execute_out_if_sv_unit(fast)
+-- Optimizing package imem_pkg_hdl(fast)
+-- Optimizing package imem_if_sv_unit(fast)
+-- Optimizing package dmem_pkg_hdl(fast)
+-- Optimizing package dmem_if_sv_unit(fast)
+-- Optimizing package fetch_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package fetch_in_driver_bfm_sv_unit(fast)
+-- Optimizing package fetch_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package fetch_out_driver_bfm_sv_unit(fast)
+-- Optimizing package decode_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package decode_in_driver_bfm_sv_unit(fast)
+-- Optimizing package decode_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package decode_out_driver_bfm_sv_unit(fast)
+-- Optimizing package writeback_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package writeback_in_driver_bfm_sv_unit(fast)
+-- Optimizing package writeback_out_monitor_bfm_sv_unit(fast)
+-- Optimizing interface decode_in_if(fast__1)
+-- Optimizing interface writeback_out_if(fast__1)
+-- Optimizing interface memaccess_out_if(fast__1)
+-- Optimizing interface imem_if(fast__1)
+-- Optimizing module hvl_top(fast)
+-- Optimizing package decode_in_pkg_hdl(fast)
+-- Optimizing package decode_out_pkg_hdl(fast)
+-- Optimizing package memaccess_in_pkg_hdl(fast)
+-- Optimizing package memaccess_out_pkg_hdl(fast)
+-- Optimizing package execute_in_pkg_hdl(fast)
+-- Optimizing package fetch_env_pkg(fast)
+-- Optimizing package decode_env_pkg(fast)
+-- Optimizing package writeback_env_pkg(fast)
+-- Optimizing package memaccess_env_pkg(fast)
+-- Optimizing package lc3_tests_pkg(fast)
+-- Optimizing module hdl_top(fast)
+-- Optimizing interface execute_in_monitor_bfm(fast__1)
+-- Optimizing interface execute_out_monitor_bfm(fast__1)
+-- Optimizing interface control_out_monitor_bfm(fast__1)
+-- Optimizing interface decode_in_monitor_bfm(fast__1)
+-- Optimizing interface writeback_in_monitor_bfm(fast__1)
+-- Optimizing interface imem_driver_bfm(fast__1)
+-- Optimizing interface dmem_driver_bfm(fast__1)
+-- Optimizing interface control_in_monitor_bfm(fast__1)
+-- Optimizing interface decode_out_monitor_bfm(fast__1)
+-- Optimizing interface memaccess_in_monitor_bfm(fast__1)
+-- Optimizing interface imem_monitor_bfm(fast__1)
+-- Optimizing interface writeback_out_monitor_bfm(fast__1)
+-- Optimizing interface memaccess_out_monitor_bfm(fast__1)
+-- Optimizing interface fetch_in_monitor_bfm(fast__1)
+-- Optimizing interface fetch_out_monitor_bfm(fast__1)
+-- Optimizing interface execute_in_if(fast__1)
+-- Optimizing interface control_out_if(fast__1)
+-- Optimizing interface execute_out_if(fast__1)
+-- Optimizing interface writeback_in_if(fast__1)
+-- Optimizing interface control_in_if(fast__1)
+-- Optimizing interface decode_out_if(fast__1)
+-- Optimizing interface fetch_out_if(fast__1)
+-- Optimizing interface memaccess_in_if(fast__1)
+-- Optimizing interface dmem_if(fast__1)
+-- Optimizing interface fetch_in_if(fast__1)
+-- Optimizing package uvmf_base_pkg_hdl(fast)
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package uvmf_base_pkg(fast)
+-- Optimizing package decode_in_pkg(fast)
+-- Optimizing package decode_out_pkg(fast)
+-- Optimizing package control_out_pkg(fast)
+-- Optimizing package execute_in_pkg(fast)
+-- Optimizing package imem_pkg(fast)
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+-- Optimizing package fetch_in_pkg(fast)
+-- Optimizing package fetch_out_pkg(fast)
+-- Optimizing package writeback_in_pkg(fast)
+-- Optimizing package writeback_out_pkg(fast)
+-- Optimizing package memaccess_in_pkg(fast)
+-- Optimizing package memaccess_out_pkg(fast)
+-- Optimizing package control_in_pkg(fast)
+-- Optimizing package execute_out_pkg(fast)
+-- Optimizing package dmem_pkg(fast)
+-- Optimizing package lc3_prediction_pkg(fast)
+-- Optimizing package control_env_pkg(fast)
+-- Optimizing package execute_env_pkg(fast)
+-- Optimizing package lc3_env_pkg(fast)
+-- Optimizing package lc3_sequences_pkg(fast)
+-- Inlining module Fetch(fast)
+-- Inlining module Decode(fast)
+-- Inlining module ALU(fast)
+-- Inlining module extension(fast)
+-- Inlining module Execute(fast)
+-- Inlining module MemAccess(fast)
+-- Inlining module RegFile(fast)
+-- Inlining module Writeback(fast)
+-- Inlining module Controller_Pipeline(fast)
+-- Optimizing module LC3(fast)
+-- Optimizing interface dmem_monitor_bfm(fast__1)
+Optimized design name is optimized_batch_top_tb
+End time: 18:19:07 on Dec 03,2024, Elapsed time: 0:00:13
+Errors: 0, Warnings: 0
+vopt    +acc    hvl_top hdl_top    -o optimized_debug_top_tb
+QuestaSim vopt 2024.2 Compiler 2024.05 May 20 2024
+** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+Start time: 18:19:07 on Dec 03,2024
+vopt "+acc" hvl_top hdl_top -o optimized_debug_top_tb 
+
+Top level modules:
+	hvl_top
+	hdl_top
+
+Analyzing design...
+-- Loading module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package lc3_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package lc3_parameters_pkg
+-- Importing package lc3_env_pkg
+-- Importing package fetch_env_pkg
+-- Importing package lc3_prediction_pkg
+-- Importing package fetch_in_pkg
+-- Importing package fetch_in_pkg_hdl
+-- Importing package fetch_out_pkg
+-- Importing package fetch_out_pkg_hdl
+-- Importing package decode_env_pkg
+-- Importing package decode_in_pkg
+-- Importing package decode_in_pkg_hdl
+-- Importing package decode_out_pkg
+-- Importing package decode_out_pkg_hdl
+-- Importing package writeback_env_pkg
+-- Importing package writeback_in_pkg
+-- Importing package writeback_in_pkg_hdl
+-- Importing package writeback_out_pkg
+-- Importing package writeback_out_pkg_hdl
+-- Importing package memaccess_env_pkg
+-- Importing package memaccess_in_pkg
+-- Importing package memaccess_in_pkg_hdl
+-- Importing package memaccess_out_pkg
+-- Importing package memaccess_out_pkg_hdl
+-- Importing package control_env_pkg
+-- Importing package control_in_pkg
+-- Importing package control_in_pkg_hdl
+-- Importing package control_out_pkg
+-- Importing package control_out_pkg_hdl
+-- Importing package execute_env_pkg
+-- Importing package execute_in_pkg
+-- Importing package execute_in_pkg_hdl
+-- Importing package execute_out_pkg
+-- Importing package execute_out_pkg_hdl
+-- Importing package imem_pkg
+-- Importing package imem_pkg_hdl
+-- Importing package dmem_pkg
+-- Importing package dmem_pkg_hdl
+-- Importing package lc3_sequences_pkg
+-- Loading module hdl_top
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading interface fetch_in_if
+-- Loading interface fetch_out_if
+-- Loading interface decode_in_if
+-- Loading interface decode_out_if
+-- Loading interface writeback_in_if
+-- Loading interface writeback_out_if
+-- Loading interface memaccess_in_if
+-- Loading interface memaccess_out_if
+-- Loading interface control_in_if
+-- Loading interface control_out_if
+-- Loading interface execute_in_if
+-- Loading interface execute_out_if
+-- Loading interface imem_if
+-- Loading interface dmem_if
+-- Loading interface fetch_in_monitor_bfm
+-- Loading interface fetch_in_driver_bfm
+-- Loading interface fetch_out_monitor_bfm
+-- Loading interface fetch_out_driver_bfm
+-- Loading interface decode_in_monitor_bfm
+-- Loading interface decode_in_driver_bfm
+-- Loading interface decode_out_monitor_bfm
+-- Loading interface decode_out_driver_bfm
+-- Loading interface writeback_in_monitor_bfm
+-- Loading interface writeback_in_driver_bfm
+-- Loading interface writeback_out_monitor_bfm
+-- Loading interface writeback_out_driver_bfm
+-- Loading interface memaccess_in_monitor_bfm
+-- Loading interface memaccess_in_driver_bfm
+-- Loading interface memaccess_out_monitor_bfm
+-- Loading interface memaccess_out_driver_bfm
+-- Loading interface control_in_monitor_bfm
+-- Loading interface control_in_driver_bfm
+-- Loading interface control_out_monitor_bfm
+-- Loading interface control_out_driver_bfm
+-- Loading interface execute_in_monitor_bfm
+-- Loading interface execute_in_driver_bfm
+-- Loading interface execute_out_monitor_bfm
+-- Loading interface execute_out_driver_bfm
+-- Loading interface imem_monitor_bfm
+-- Loading interface imem_driver_bfm
+-- Loading interface dmem_monitor_bfm
+-- Loading interface dmem_driver_bfm
+-- Loading module LC3
+-- Loading module Fetch
+-- Loading module Decode
+-- Loading module Execute
+-- Loading module ALU
+-- Loading module extension
+-- Loading module MemAccess
+-- Loading module Writeback
+-- Loading module RegFile
+-- Loading module Controller_Pipeline
+Optimizing 169 design-units (inlining 0/42 module instances):
+-- Optimizing interface control_out_monitor_bfm(fast)
+-- Optimizing interface control_out_driver_bfm(fast)
+-- Optimizing interface control_in_monitor_bfm(fast)
+-- Optimizing interface control_in_driver_bfm(fast)
+-- Optimizing interface memaccess_out_monitor_bfm(fast)
+-- Optimizing interface memaccess_out_driver_bfm(fast)
+-- Optimizing interface memaccess_in_monitor_bfm(fast)
+-- Optimizing interface memaccess_in_driver_bfm(fast)
+-- Optimizing interface writeback_out_monitor_bfm(fast)
+-- Optimizing interface writeback_out_driver_bfm(fast)
+-- Optimizing interface writeback_in_monitor_bfm(fast)
+-- Optimizing interface writeback_in_driver_bfm(fast)
+-- Optimizing interface decode_out_monitor_bfm(fast)
+-- Optimizing interface decode_out_driver_bfm(fast)
+-- Optimizing interface decode_in_monitor_bfm(fast)
+-- Optimizing interface decode_in_driver_bfm(fast)
+-- Optimizing interface fetch_out_monitor_bfm(fast)
+-- Optimizing interface fetch_out_driver_bfm(fast)
+-- Optimizing interface fetch_in_monitor_bfm(fast)
+-- Optimizing interface fetch_in_driver_bfm(fast)
+-- Optimizing interface dmem_if(fast)
+-- Optimizing interface imem_if(fast)
+-- Optimizing interface execute_out_if(fast)
+-- Optimizing interface execute_in_if(fast)
+-- Optimizing interface control_out_if(fast)
+-- Optimizing interface control_in_if(fast)
+-- Optimizing interface memaccess_out_if(fast)
+-- Optimizing interface memaccess_in_if(fast)
+-- Optimizing interface writeback_out_if(fast)
+-- Optimizing interface writeback_in_if(fast)
+-- Optimizing interface decode_out_if(fast)
+-- Optimizing interface decode_in_if(fast)
+-- Optimizing interface fetch_out_if(fast)
+-- Optimizing interface fetch_in_if(fast)
+-- Optimizing package execute_out_if_sv_unit(fast)
+-- Optimizing package imem_if_sv_unit(fast)
+-- Optimizing package dmem_if_sv_unit(fast)
+-- Optimizing package fetch_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package fetch_in_driver_bfm_sv_unit(fast)
+-- Optimizing package fetch_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package fetch_out_driver_bfm_sv_unit(fast)
+-- Optimizing package decode_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package decode_in_driver_bfm_sv_unit(fast)
+-- Optimizing package decode_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package decode_out_driver_bfm_sv_unit(fast)
+-- Optimizing package writeback_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package writeback_in_driver_bfm_sv_unit(fast)
+-- Optimizing package writeback_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package writeback_out_driver_bfm_sv_unit(fast)
+-- Optimizing package memaccess_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package memaccess_in_driver_bfm_sv_unit(fast)
+-- Optimizing package memaccess_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package memaccess_out_driver_bfm_sv_unit(fast)
+-- Optimizing package control_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package control_in_driver_bfm_sv_unit(fast)
+-- Optimizing package control_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package control_out_driver_bfm_sv_unit(fast)
+-- Optimizing package execute_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package execute_in_driver_bfm_sv_unit(fast)
+-- Optimizing package execute_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package execute_out_driver_bfm_sv_unit(fast)
+-- Optimizing package imem_monitor_bfm_sv_unit(fast)
+-- Optimizing package imem_driver_bfm_sv_unit(fast)
+-- Optimizing package dmem_monitor_bfm_sv_unit(fast)
+-- Optimizing package dmem_driver_bfm_sv_unit(fast)
+-- Optimizing interface dmem_monitor_bfm(fast)
+-- Optimizing interface dmem_driver_bfm(fast)
+-- Optimizing interface imem_monitor_bfm(fast)
+-- Optimizing interface imem_driver_bfm(fast)
+-- Optimizing interface execute_out_monitor_bfm(fast)
+-- Optimizing interface execute_out_driver_bfm(fast)
+-- Optimizing interface execute_in_monitor_bfm(fast)
+-- Optimizing interface execute_in_driver_bfm(fast)
+-- Optimizing package lc3_parameters_pkg(fast)
+-- Optimizing package fetch_in_pkg_hdl(fast)
+-- Optimizing package fetch_in_if_sv_unit(fast)
+-- Optimizing package fetch_out_pkg_hdl(fast)
+-- Optimizing package fetch_out_if_sv_unit(fast)
+-- Optimizing package decode_in_pkg_hdl(fast)
+-- Optimizing package decode_in_if_sv_unit(fast)
+-- Optimizing package decode_out_pkg_hdl(fast)
+-- Optimizing package decode_out_if_sv_unit(fast)
+-- Optimizing package writeback_in_pkg_hdl(fast)
+-- Optimizing package writeback_in_if_sv_unit(fast)
+-- Optimizing package writeback_out_pkg_hdl(fast)
+-- Optimizing package writeback_out_if_sv_unit(fast)
+-- Optimizing package memaccess_in_pkg_hdl(fast)
+-- Optimizing package memaccess_in_if_sv_unit(fast)
+-- Optimizing package memaccess_out_pkg_hdl(fast)
+-- Optimizing package memaccess_out_if_sv_unit(fast)
+-- Optimizing package control_in_pkg_hdl(fast)
+-- Optimizing package control_in_if_sv_unit(fast)
+-- Optimizing package control_out_pkg_hdl(fast)
+-- Optimizing package control_out_if_sv_unit(fast)
+-- Optimizing package execute_in_pkg_hdl(fast)
+-- Optimizing package execute_in_if_sv_unit(fast)
+-- Optimizing package execute_out_pkg_hdl(fast)
+-- Optimizing package imem_pkg_hdl(fast)
+-- Optimizing package dmem_pkg_hdl(fast)
+-- Optimizing interface execute_out_if(fast__1)
+-- Optimizing interface writeback_in_if(fast__1)
+-- Optimizing interface control_in_if(fast__1)
+-- Optimizing interface decode_out_if(fast__1)
+-- Optimizing interface fetch_out_if(fast__1)
+-- Optimizing interface memaccess_in_if(fast__1)
+-- Optimizing interface dmem_if(fast__1)
+-- Optimizing interface fetch_in_if(fast__1)
+-- Optimizing interface decode_in_if(fast__1)
+-- Optimizing interface writeback_out_if(fast__1)
+-- Optimizing interface memaccess_out_if(fast__1)
+-- Optimizing interface imem_if(fast__1)
+-- Optimizing module hvl_top(fast)
+-- Optimizing package uvmf_base_pkg_hdl(fast)
+-- Optimizing package fetch_env_pkg(fast)
+-- Optimizing package decode_env_pkg(fast)
+-- Optimizing package writeback_env_pkg(fast)
+-- Optimizing package lc3_tests_pkg(fast)
+-- Optimizing module Controller_Pipeline(fast)
+-- Optimizing module hdl_top(fast)
+-- Optimizing module Execute(fast)
+-- Optimizing interface execute_in_monitor_bfm(fast__1)
+-- Optimizing interface execute_out_monitor_bfm(fast__1)
+-- Optimizing interface control_out_monitor_bfm(fast__1)
+-- Optimizing module Decode(fast)
+-- Optimizing interface decode_in_monitor_bfm(fast__1)
+-- Optimizing interface writeback_in_monitor_bfm(fast__1)
+-- Optimizing interface imem_driver_bfm(fast__1)
+-- Optimizing interface dmem_driver_bfm(fast__1)
+-- Optimizing interface control_in_monitor_bfm(fast__1)
+-- Optimizing interface decode_out_monitor_bfm(fast__1)
+-- Optimizing interface memaccess_in_monitor_bfm(fast__1)
+-- Optimizing interface dmem_monitor_bfm(fast__1)
+-- Optimizing interface imem_monitor_bfm(fast__1)
+-- Optimizing interface writeback_out_monitor_bfm(fast__1)
+-- Optimizing interface memaccess_out_monitor_bfm(fast__1)
+-- Optimizing interface fetch_in_monitor_bfm(fast__1)
+-- Optimizing interface fetch_out_monitor_bfm(fast__1)
+-- Optimizing module LC3(fast)
+-- Optimizing module RegFile(fast)
+-- Optimizing module Writeback(fast)
+-- Optimizing module MemAccess(fast)
+-- Optimizing module ALU(fast)
+-- Optimizing module Fetch(fast)
+-- Optimizing module extension(fast)
+-- Optimizing interface execute_in_if(fast__1)
+-- Optimizing interface control_out_if(fast__1)
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package uvmf_base_pkg(fast)
+-- Optimizing package fetch_in_pkg(fast)
+-- Optimizing package decode_in_pkg(fast)
+-- Optimizing package decode_out_pkg(fast)
+-- Optimizing package execute_in_pkg(fast)
+-- Optimizing package imem_pkg(fast)
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+-- Optimizing package fetch_out_pkg(fast)
+-- Optimizing package writeback_in_pkg(fast)
+-- Optimizing package writeback_out_pkg(fast)
+-- Optimizing package memaccess_in_pkg(fast)
+-- Optimizing package memaccess_out_pkg(fast)
+-- Optimizing package control_in_pkg(fast)
+-- Optimizing package control_out_pkg(fast)
+-- Optimizing package execute_out_pkg(fast)
+-- Optimizing package dmem_pkg(fast)
+-- Optimizing package lc3_prediction_pkg(fast)
+-- Optimizing package memaccess_env_pkg(fast)
+-- Optimizing package control_env_pkg(fast)
+-- Optimizing package execute_env_pkg(fast)
+-- Optimizing package lc3_env_pkg(fast)
+-- Optimizing package lc3_sequences_pkg(fast)
+Optimized design name is optimized_debug_top_tb
+End time: 18:19:18 on Dec 03,2024, Elapsed time: 0:00:11
+Errors: 0, Warnings: 1
+vsim -c    -sv_seed random +UVM_TESTNAME=test_top +UVM_VERBOSITY=UVM_LOW -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase  -coverage  -uvmcontrol=none  -printsimstats     -do " coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;"  optimized_batch_top_tb  
+Reading pref.tcl
+
+# 2024.2
+
+# vsim -c -sv_seed random "+UVM_TESTNAME=test_top" "+UVM_VERBOSITY=UVM_LOW" -permit_unmatched_virtual_intf "+notimingchecks" -suppress 8887 -solvefaildebug -solvefailtestcase -coverage -uvmcontrol=none -printsimstats -do " coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;" optimized_batch_top_tb 
+# Start time: 18:19:27 on Dec 03,2024
+# //  Questa Sim
+# //  Version 2024.2 linux May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.dmem_driver_bfm(fast)
+# Loading work.dmem_monitor_bfm(fast)
+# Loading work.uvmf_base_pkg_hdl(fast)
+# Loading work.dmem_pkg_hdl(fast)
+# Loading work.fetch_in_driver_bfm(fast)
+# Loading work.fetch_in_monitor_bfm(fast)
+# Loading work.fetch_out_driver_bfm(fast)
+# Loading work.fetch_out_monitor_bfm(fast)
+# Loading work.decode_in_driver_bfm(fast)
+# Loading work.decode_in_monitor_bfm(fast)
+# Loading work.decode_out_driver_bfm(fast)
+# Loading work.decode_out_monitor_bfm(fast)
+# Loading work.writeback_in_driver_bfm(fast)
+# Loading work.writeback_in_monitor_bfm(fast)
+# Loading work.writeback_out_driver_bfm(fast)
+# Loading work.writeback_out_monitor_bfm(fast)
+# Loading work.memaccess_in_driver_bfm(fast)
+# Loading work.memaccess_in_monitor_bfm(fast)
+# Loading work.memaccess_out_driver_bfm(fast)
+# Loading work.memaccess_out_monitor_bfm(fast)
+# Loading work.control_in_driver_bfm(fast)
+# Loading work.control_in_monitor_bfm(fast)
+# Loading work.control_out_driver_bfm(fast)
+# Loading work.control_out_monitor_bfm(fast)
+# Loading work.execute_in_driver_bfm(fast)
+# Loading work.execute_in_monitor_bfm(fast)
+# Loading work.execute_out_driver_bfm(fast)
+# Loading work.execute_out_monitor_bfm(fast)
+# Loading work.imem_driver_bfm(fast)
+# Loading work.imem_monitor_bfm(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.uvmf_base_pkg(fast)
+# Loading work.dmem_pkg(fast)
+# Loading work.imem_pkg_hdl(fast)
+# Loading work.imem_pkg(fast)
+# Loading work.execute_out_pkg_hdl(fast)
+# Loading work.execute_out_pkg(fast)
+# Loading work.execute_in_pkg_hdl(fast)
+# Loading work.execute_in_pkg(fast)
+# Loading work.lc3_prediction_pkg(fast)
+# Loading work.execute_env_pkg(fast)
+# Loading work.control_out_pkg_hdl(fast)
+# Loading work.control_out_pkg(fast)
+# Loading work.control_in_pkg_hdl(fast)
+# Loading work.control_in_pkg(fast)
+# Loading work.control_env_pkg(fast)
+# Loading work.memaccess_out_pkg_hdl(fast)
+# Loading work.memaccess_out_pkg(fast)
+# Loading work.memaccess_in_pkg_hdl(fast)
+# Loading work.memaccess_in_pkg(fast)
+# Loading work.memaccess_env_pkg(fast)
+# Loading work.writeback_out_pkg_hdl(fast)
+# Loading work.writeback_out_pkg(fast)
+# Loading work.writeback_in_pkg_hdl(fast)
+# Loading work.writeback_in_pkg(fast)
+# Loading work.writeback_env_pkg(fast)
+# Loading work.decode_out_pkg_hdl(fast)
+# Loading work.decode_out_pkg(fast)
+# Loading work.decode_in_pkg_hdl(fast)
+# Loading work.decode_in_pkg(fast)
+# Loading work.decode_env_pkg(fast)
+# Loading work.fetch_out_pkg_hdl(fast)
+# Loading work.fetch_out_pkg(fast)
+# Loading work.fetch_in_pkg_hdl(fast)
+# Loading work.fetch_in_pkg(fast)
+# Loading work.fetch_env_pkg(fast)
+# Loading work.lc3_env_pkg(fast)
+# Loading work.lc3_parameters_pkg(fast)
+# Loading work.lc3_sequences_pkg(fast)
+# Loading work.lc3_tests_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.hvl_top(fast)
+# Loading work.hdl_top(fast)
+# Loading work.fetch_in_if_sv_unit(fast)
+# Loading work.fetch_in_if(fast__1)
+# Loading work.fetch_out_if_sv_unit(fast)
+# Loading work.fetch_out_if(fast__1)
+# Loading work.decode_in_if_sv_unit(fast)
+# Loading work.decode_in_if(fast__1)
+# Loading work.decode_out_if_sv_unit(fast)
+# Loading work.decode_out_if(fast__1)
+# Loading work.writeback_in_if_sv_unit(fast)
+# Loading work.writeback_in_if(fast__1)
+# Loading work.writeback_out_if_sv_unit(fast)
+# Loading work.writeback_out_if(fast__1)
+# Loading work.memaccess_in_if_sv_unit(fast)
+# Loading work.memaccess_in_if(fast__1)
+# Loading work.memaccess_out_if_sv_unit(fast)
+# Loading work.memaccess_out_if(fast__1)
+# Loading work.control_in_if_sv_unit(fast)
+# Loading work.control_in_if(fast__1)
+# Loading work.control_out_if_sv_unit(fast)
+# Loading work.control_out_if(fast__1)
+# Loading work.execute_in_if_sv_unit(fast)
+# Loading work.execute_in_if(fast__1)
+# Loading work.execute_out_if_sv_unit(fast)
+# Loading work.execute_out_if(fast__1)
+# Loading work.imem_if_sv_unit(fast)
+# Loading work.imem_if(fast__1)
+# Loading work.dmem_if_sv_unit(fast)
+# Loading work.dmem_if(fast__1)
+# Loading work.fetch_in_monitor_bfm_sv_unit(fast)
+# Loading work.fetch_in_monitor_bfm(fast__1)
+# Loading work.fetch_out_monitor_bfm_sv_unit(fast)
+# Loading work.fetch_out_monitor_bfm(fast__1)
+# Loading work.decode_in_monitor_bfm_sv_unit(fast)
+# Loading work.decode_in_monitor_bfm(fast__1)
+# Loading work.decode_out_monitor_bfm_sv_unit(fast)
+# Loading work.decode_out_monitor_bfm(fast__1)
+# Loading work.writeback_in_monitor_bfm_sv_unit(fast)
+# Loading work.writeback_in_monitor_bfm(fast__1)
+# Loading work.writeback_out_monitor_bfm_sv_unit(fast)
+# Loading work.writeback_out_monitor_bfm(fast__1)
+# Loading work.memaccess_in_monitor_bfm_sv_unit(fast)
+# Loading work.memaccess_in_monitor_bfm(fast__1)
+# Loading work.memaccess_out_monitor_bfm_sv_unit(fast)
+# Loading work.memaccess_out_monitor_bfm(fast__1)
+# Loading work.control_in_monitor_bfm_sv_unit(fast)
+# Loading work.control_in_monitor_bfm(fast__1)
+# Loading work.control_out_monitor_bfm_sv_unit(fast)
+# Loading work.control_out_monitor_bfm(fast__1)
+# Loading work.execute_in_monitor_bfm_sv_unit(fast)
+# Loading work.execute_in_monitor_bfm(fast__1)
+# Loading work.execute_out_monitor_bfm_sv_unit(fast)
+# Loading work.execute_out_monitor_bfm(fast__1)
+# Loading work.imem_monitor_bfm_sv_unit(fast)
+# Loading work.imem_monitor_bfm(fast__1)
+# Loading work.dmem_monitor_bfm_sv_unit(fast)
+# Loading work.dmem_monitor_bfm(fast__1)
+# Loading work.imem_driver_bfm_sv_unit(fast)
+# Loading work.imem_driver_bfm(fast__1)
+# Loading work.dmem_driver_bfm_sv_unit(fast)
+# Loading work.dmem_driver_bfm(fast__1)
+# Loading work.LC3(fast)
+# Loading /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/uvm-1.1d/linux/uvm_dpi.so
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# Sv_Seed = 2764702799
+#  coverage save -onexit test_top.ucdb
+#  set IterationLimit 140000
+# 140000
+#  set NoQuitOnFinish 1
+# 1
+#    run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# ----------------------------------------------------------------
+# //  UVM Framework 
+# //  Version 2023.4
+# //  (C) 2013-2023 Siemens Corporation
+# //  Digital Industries Software
+# //  Siemens EDA
+# //  All Rights Reserved.
+# ----------------------------------------------------------------
+# 
+# 
+# UVM_INFO @ 0.000ns: reporter [RNTST] Running test test_top...
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.controlEnv.control_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.decodeEnv.decode_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.executeEnv.execute_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.fetchEnv.fetch_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.memaccessEnv.memaccess_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# UVM_WARNING @ 0.000ns: uvm_test_top.environment.writebackEnv.writeback_scoreboard [SCBD] end_of_test_empty_check has been turned off
+# start drain time               16900
+# end draining
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 17000.00 ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.controlEnv.control_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1696 MATCHES=1696 MISMATCHES=0
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.decodeEnv.decode_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=728 MATCHES=727 MISMATCHES=0
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.executeEnv.execute_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=727 MATCHES=726 MISMATCHES=0
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.fetchEnv.fetch_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1699 MATCHES=1699 MISMATCHES=0
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.memaccessEnv.memaccess_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1696 MATCHES=1696 MISMATCHES=0
+# UVM_INFO @ 17000.00 ns: uvm_test_top.environment.writebackEnv.writeback_scoreboard [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=1699 MATCHES=1698 MISMATCHES=0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    6
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [SCBD]    12
+# [TEST_DONE]     1
+# ** Note: $finish    : /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 17 us  Iteration: 55  Instance: /hvl_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Stopped at /mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+#  quit -f
+# Saving coverage database on exit...
+# Memory Statistics                         
+#     mem: size after elab (VSZ)                 170.82 Mb
+#     mem: size during sim (VSZ)                 185.49 Mb
+# Elaboration Time                          
+#    elab: wall time                               3.49 s
+#    elab: cpu time                                1.69 s
+# Simulation Time                           
+#     sim: wall time                               0.79 s
+#     sim: cpu time                                0.34 s
+# Coverage Save Time                        
+#    save: wall time                               1.25 s
+#    save: cpu time                                0.19 s
+# Total Time                                
+#   total: wall time                               5.53 s
+#   total: cpu time                                2.22 s
+# HDL Simulation time                              17 us
+# 
+# End time: 18:19:32 on Dec 03,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+make[1]: Leaving directory '/mnt/ncsudrive/g/gmalluri/ECE748/gmalluri_p3/group4_p3/project_benches/lc3/sim'

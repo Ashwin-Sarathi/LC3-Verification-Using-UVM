@@ -1,0 +1,1 @@
+/mnt/apps/public/COE/mg_apps/questa2024.2/questasim/linux/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 83558592 +acc hvl_top hdl_top -o optimized_debug_top_tb +__design_bin_path+/mnt/ncsudrive/a/asarath/748/ece748projects/group4_p3/project_benches/lc3/sim +__betafsm

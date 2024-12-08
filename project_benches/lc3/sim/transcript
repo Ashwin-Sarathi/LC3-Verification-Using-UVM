@@ -1,0 +1,17 @@
+# //  Questa Sim
+# //  Version 2024.2 linux May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# coverage read -dataset lc3_test_plan_merged ./lc3_test_plan_merged.ucdb
+# ./lc3_test_plan_merged.ucdb opened as coverage dataset "lc3_test_plan_merged"
+# coverage report -output coverage_report.txt -srcfile=* -detail -option -cvg
